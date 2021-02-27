@@ -4,10 +4,10 @@ var leaderBtn = document.querySelector("#leaderBtn");
 var timerDisplay = document.querySelector(".timer");
 var gameCard = document.querySelector("#gameCard");
 var question = document.querySelector("#question");
-var mcA = document.querySelector("#mcA");
-var mcB = document.querySelector("#mcB");
-var mcC = document.querySelector("#mcC");
-var mcD = document.querySelector("#mcD");
+var jmA = document.querySelector("#jmA");
+var jmB = document.querySelector("#jmB");
+var jmC = document.querySelector("#jmC");
+var jmD = document.querySelector("#jmD");
 var answer = document.querySelector("#answer");
 var feedback = document.querySelector("#feedback1");
 var card = document.querySelector("#multipleChoice");
@@ -48,10 +48,10 @@ function timer() {
 function displayQA() {
   if (q < questionBank.length) {
     question.textContent = questionBank[q].question;
-    mcA.textContent = questionBank[q].selection[0];
-    mcB.textContent = questionBank[q].selection[1];
-    mcC.textContent = questionBank[q].selection[2];
-    mcD.textContent = questionBank[q].selection[3];
+    jmA.textContent = questionBank[q].selection[0];
+    jmB.textContent = questionBank[q].selection[1];
+    jmC.textContent = questionBank[q].selection[2];
+    jmD.textContent = questionBank[q].selection[3];
   } else {
     gameOver();
   }
