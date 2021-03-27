@@ -1,5 +1,9 @@
 # myQuiz
 # 04 Web APIs: Code Quiz
+[![Generic badge](https://img.shields.io/badge/license-MIT-<COLOR>.svg)](#license)
+![GitHub language count](https://img.shields.io/github/languages/count/javiistacks/myQuiz)
+![GitHub top language](https://img.shields.io/github/languages/top/javiistacks/myQuiz)
+
 
 
 <img src="readMe/startMenu.jpg" width="550" height="400" >
